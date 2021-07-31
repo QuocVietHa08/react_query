@@ -33,13 +33,14 @@ function Example(){
 
   return (
     <div>
-      <div>
-        hello this is me 
-          {result?.data?.map(item => 
-              <div>{item.name}</div> 
-          )}
-          {result.isFetching ? "Updating" : null}
-      </div>
+    <div> xin cao</div>
+      {result?.data?.map(item => 
+          <div>{item.name}</div> 
+      )}
+      {result.isFetching ? "Updating" : null}
+      <div> auto closing tag</div>
+      <div> using sublime merge</div>
+      <div> use git intergation</div>
     </div>
 
   );
