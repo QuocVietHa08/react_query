@@ -33,10 +33,13 @@ function Example(){
 
   return (
     <div>
-      {result?.data?.map(item => 
-          <div>{item.name}</div> 
-      )}
-      {result.isFetching ? "Updating" : null}
+      <div>
+        hello this is me 
+          {result?.data?.map(item => 
+              <div>{item.name}</div> 
+          )}
+          {result.isFetching ? "Updating" : null}
+      </div>
     </div>
 
   );
